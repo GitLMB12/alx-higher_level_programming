@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 x = 97
-ch_string = ""
+output_string = ""
 while x <= 122:
     if chr(x) != 'e' and chr(x) != 'q':
         output_string += chr(x)
