@@ -4,4 +4,4 @@ output_string = ""
 while x <= 122:
     output_string += chr(x)
     x += 1
-print("{}".format(output_string))
+print("{}".format(output_string), end="")
