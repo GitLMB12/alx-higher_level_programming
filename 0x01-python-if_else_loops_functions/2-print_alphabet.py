@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 x = 97
+output_string = ""
 while x <= 122:
-    print(chr(x))
+    output_string += chr(x)
     x += 1
+print(output_string)
