@@ -1,5 +1,5 @@
 #!/usr/bin/python3
- def fizbuzz():
+ def fizzbuzz():
      for Num in range (1, 101):
          if Num % 3 == 0:
              print(f"Fizz", end" ")
