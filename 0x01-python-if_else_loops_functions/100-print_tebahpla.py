@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-print("{}".format("".join([chr(c) for c in range(ord('z'), ord('A') - 1, -1) if c % 2 == 0])))
+for c in range(ord('z'), ord('a') - 1, -1):
+    print(chr(c - 32 * ((c - ord('a')) % 2)), end="")
