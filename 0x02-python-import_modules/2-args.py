@@ -3,7 +3,7 @@ from sys import argv
 def print_arguments():
     argument = len(argv) - 1
     if argument == 0:
-        print("0 arguments.")
+        print("{} arguments.".format(argument))
     else:
         print("{} argument{}:".format(argument, "s" if argument > 1 else ""))
         for i, arg in enumerate(argv[1 :], start = 1):
