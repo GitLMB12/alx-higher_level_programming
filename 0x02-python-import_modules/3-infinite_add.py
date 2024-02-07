@@ -6,7 +6,7 @@ def infinite_add(arguments):
     T_Sum = 0
     for arg in arguments:
         T_Sum += int(arg)
-    print(T_Sum)
+    print("{}".format(T_Sum))
 
 if __name__ == "__main__":
     arguments = argv[1:]
