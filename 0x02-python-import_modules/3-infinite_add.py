@@ -1,13 +1,8 @@
 #!/usr/bin/python3
-
-from sys import argv
-
-def infinite_add(arguments):
-    T_Sum = 0
-    for arg in arguments:
-        T_Sum += int(arg)
-    print("{}".format(T_Sum))
-
 if __name__ == "__main__":
-    arguments = argv[1:]
-    infinite_add(arguments)
+    from sys import argv
+    arg = argv[1:]
+    total = 0
+    for ar in arg:
+        total += int(ar)
+    print("{}".format(total))
