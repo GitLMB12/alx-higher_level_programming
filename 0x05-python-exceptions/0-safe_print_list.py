@@ -9,3 +9,6 @@ def safe_print_list(my_list=[], x=0):
         pass
     print()
     return nb_print
+if __name__ == "__main__":
+    my_list = [1, 2, 3, 4, 5]
+    safe_print_list(my_list)
