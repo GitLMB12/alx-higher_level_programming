@@ -1,6 +1,5 @@
 #!/usr/bin/node
-const My_arr = ["C is fun","Python is cool","JavaScript is amazing"];
-for(let i = 0; i < My_arr.length;i++)
-{
-	console.log(My_arr[i]);
+const array = ['C is fun', 'Python is cool', 'Javascript is amazing'];
+for (let i = 0; i < array.length; i++) {
+  console.log(array[i]);
 }
