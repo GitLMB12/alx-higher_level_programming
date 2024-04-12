@@ -1,2 +1,3 @@
 -- list all databases of the MySQL server
-SHOW DATABASES;
+SELECT schema_name AS Database
+FROM INFORMATION_SCHEMA.SCHEMATA;
